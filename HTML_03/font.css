@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Caveat', cursive;
+}
+
+h1,p{
+    text-align: center;
+}
+p{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Gwendolyn', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    color:red;
+}
+body{
+    background:url(luxfon.com-26395.jpg);
+    background-size: 100%;
+}
