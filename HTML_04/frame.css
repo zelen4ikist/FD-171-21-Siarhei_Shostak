@@ -1,6 +1,6 @@
 body {
-    background: url(img/RB.gif) right bottom no-repeat, url(img/RT.gif) right top no-repeat, url(img/LB.gif) left bottom no-repeat, 
-    url(img/LT.gif) left top no-repeat, url(img/L.gif) left repeat-y, url(img/R.gif) right repeat-y, url(img/BOT.gif) center bottom repeat-x, url(img/TOP.gif) center top repeat-x ;
+    background: url(img/RB.gif) right bottom no-repeat, url(img/RT.gif) right top no-repeat,  url(img/LB.gif) left bottom no-repeat, 
+    url(img/LT.gif) left top no-repeat,  url(img/BOT.gif) center bottom repeat-x, url(img/TOP.gif) center top repeat-x, url(img/L.gif) left repeat-y, url(img/R.gif) right repeat-y;
 }
 div{
     margin: 50px;text-align: justify;
