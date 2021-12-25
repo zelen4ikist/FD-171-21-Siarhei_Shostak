@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Тег Area</h1>
+    <p>Тег <area> (от англ. "area" - область) предназначен для создания активных областей на карте изображения. Каждая активная область представляет собой невидимую ссылку произвольной формы.<br> 
+    Значения координат задаются в пикселях от левого верхнего угла изображения и очень сильно зависят от выбранной фигуры области.</p><br>
+    <p>Вручную узнавать и прописывать координаты всех элементов - не самая простая задача. Для этого лучше воспользоваться одним из специализированных сервисов по генерации карт изображений, например, https://imagemap.org.<br> 
+    Там вы сможете загрузить свое изображение, выбрать одну из трех фигур и пометить контуры нужных областей.<br> 
+    В сети можно найти и другие варианты подобных сервисов.</p><br>
+    <img src="img/solar_system.jpg" alt="Солнечная система" width="500" usemap="#solar">
+
+<map name="solar">
+  <area alt="Солнце" title="Солнце" href="#" coords="247,217,76" shape="circle">
+  <area alt="Нептун" title="Нептун" href="#" coords="425,242,52" shape="circle">
+  <area alt="Венера" title="Венера" href="#" coords="395,354,37" shape="circle">
+  <area alt="Уран" title="Уран" href="#" coords="265,413,50" shape="circle">
+  <area alt="Юпитер" title="Юпитер" href="#" coords="100,344,70" shape="circle">
+  <area alt="Земля" title="Земля" href="#" coords="70,200,43" shape="circle">
+  <area alt="Марс" title="Марс" href="#" coords="116,92,30" shape="circle">
+  <area alt="Меркрий" title="Меркурий" href="#" coords="218,49,25" shape="circle">
+  <area alt="Сатурн" title="Сатурн" href="" coords="373,85,37" shape="circle">
+</map>
+</body>
+</html>
