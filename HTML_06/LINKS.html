@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu-link { color: green; font-size: 15px; border-right-style: solid;border-color: red;padding: 10px; }
+        .advert-link{ color: green; font-size: 15px;}
+        .menu-item-link{color: green; font-size: 15px;}
+        .advert a::after{content: "|";color: red;}
+        .menu a:hover{color: red;}
+        .advert a:hover{color: red;}
+        .menu-item-link a:hover{color: red;}
+        span{color: red; font-size: 30px;font-weight: bold;}
+        
+        </style>
+</head>
+<body>
+    <div class="menu">
+        <a href='' class="menu-link">первая ссылка</a>
+        <a href='' class="menu-link">вторая ссылка</a>
+        <a href='' class="menu-link">третья ссылка</a>
+        <a href='' class="menu-link">четвёртая ссылка</a>
+        <a href='' class="menu-link">пятая ссылка</a>
+    </div>
+    <br>
+    <div class="advert">
+        <a href='' class="advert-link">первая ссылка</a>
+        <a href='' class="advert-link">вторая ссылка</a>
+        <a href='' class="advert-link">третья ссылка</a>
+        <a href='' class="advert-link">четвёртая ссылка</a>
+        <a href='' class="advert-link">пятая ссылка</a>
+    </div>
+    <br> 
+    <div class="menu-item-link">
+        <a href='' class="menu-item-link">первая ссылка</a>
+        <span>|</span>
+        <a href='' class="menu-item-link">вторая ссылка</a>
+        <span>|</span>
+        <a href='' class="menu-item-link">третья ссылка</a>
+        <span>|</span>
+        <a href='' class="menu-item-link">четвёртая ссылка</a>
+        <span>|</span>
+        <a href='' class="menu-item-link">пятая ссылка</a>
+        <span>|</span>
+    </div>
+</body>
+</html>
