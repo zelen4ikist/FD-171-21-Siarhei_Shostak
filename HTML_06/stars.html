@@ -5,8 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .stars{float: left;}
+        .star{
+            width: 80px;
+            height:80px;
+            background:url(star0.png) no-repeat;
+            float: right;
+            padding-left: 10px;
+        }
+        .star:hover,.star:hover ~ div{
+            background: url(star1.png) no-repeat;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="stars">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+    </div>
 </body>
 </html>
